@@ -38,6 +38,10 @@ public class CommentParserAcfun extends CommentParser {
 				if (eventType == XmlPullParser.START_TAG) {
 					currentDepth += 1;
 					tagName = parser.getName();
+					if (currentDepth == 1
+							&& tagName.compareTo("information") != 0) {
+						break;
+					}
 					if (currentDepth == 3) {
 						if (tagName.compareTo("message") == 0) {
 							int count = parser.getAttributeCount();
@@ -64,8 +68,13 @@ public class CommentParserAcfun extends CommentParser {
 				if (eventType == XmlPullParser.END_TAG) {
 					currentDepth -= 1;
 					if (currentDepth == 1) {
-						Comment comment = new Comment(commentTime, commentType,
-								commentSize, commentColor, commentText);
+						Comment comment = new Comment();
+						comment.site = Comment.SITE_ACFUN;
+						comment.time = commentTime;
+						comment.type = commentType;
+						comment.size = commentSize;
+						comment.color = commentColor;
+						comment.text = commentText;
 						result.add(comment);
 					}
 					continue;
@@ -74,7 +83,7 @@ public class CommentParserAcfun extends CommentParser {
 					if (currentDepth == 3) {
 						if (tagName.compareTo("playTime") == 0) {
 							commentTime = (int) (Float.parseFloat(parser
-									.getText()) * 10);
+									.getText()) * 1000);
 						}
 						if (tagName.compareTo("message") == 0) {
 							commentText = parser.getText();
