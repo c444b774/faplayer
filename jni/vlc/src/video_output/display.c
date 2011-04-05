@@ -2,7 +2,7 @@
  * display.c: "vout display" managment
  *****************************************************************************
  * Copyright (C) 2009 Laurent Aimar
- * $Id$
+ * $Id: 67092cd089014d4985997ddfad663ab0bf67eb65 $
  *
  * Authors: Laurent Aimar <fenrir _AT_ videolan _DOT_ org>
  *

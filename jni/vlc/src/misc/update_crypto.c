@@ -2,7 +2,7 @@
  * update_crypto.c: DSA/SHA1 related functions used for updating
  *****************************************************************************
  * Copyright © 2008-2009 the VideoLAN team
- * $Id$
+ * $Id: f16cb0fe10ebdf571dad46a53adadb4a2559ec2b $
  *
  * Authors: Rafaël Carré <funman@videolanorg>
  *

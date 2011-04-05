@@ -2,7 +2,7 @@
  * iso_lang.h: languages codes and abbreviations
  *****************************************************************************
  * Copyright (C) 1998-2004 the VideoLAN team
- * $Id$
+ * $Id: 092d740170acc854d63f432dffb5c7a82aeb4146 $
  *
  * This is used in iso_lang.cpp and is taken from the GNU glibc 2.2.5
  * tarball. It has been partially completed with native language names.

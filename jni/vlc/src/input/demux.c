@@ -2,7 +2,7 @@
  * demux.c
  *****************************************************************************
  * Copyright (C) 1999-2004 the VideoLAN team
- * $Id$
+ * $Id: b0d7dae35e11704d09ac68a55ee524000c3899da $
  *
  * Author: Laurent Aimar <fenrir@via.ecp.fr>
  *

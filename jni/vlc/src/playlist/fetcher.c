@@ -2,7 +2,7 @@
  * fetcher.c: Art fetcher thread.
  *****************************************************************************
  * Copyright © 1999-2009 the VideoLAN team
- * $Id$
+ * $Id: 1a643b05d85341736c120e7ba001262ebac75951 $
  *
  * Authors: Samuel Hocevar <sam@zoy.org>
  *          Clément Stenac <zorglub@videolan.org>
@@ -182,7 +182,7 @@ static int FindArt( playlist_fetcher_t *p_fetcher, input_item_t *p_item )
     char *psz_arturl = input_item_GetArtURL( p_item );
     if( psz_arturl )
     {
-        /* We already have an URL */
+        /* We already have a URL */
         if( !strncmp( psz_arturl, "file://", strlen( "file://" ) ) )
         {
             free( psz_arturl );

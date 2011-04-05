@@ -2,7 +2,7 @@
  * playlist.c: libvlc new API playlist handling functions
  *****************************************************************************
  * Copyright (C) 2005 the VideoLAN team
- * $Id$
+ * $Id: 79f274cda5757fe50a677005e1ac9d836776f2d6 $
  *
  * Authors: Clément Stenac <zorglub@videolan.org>
  *

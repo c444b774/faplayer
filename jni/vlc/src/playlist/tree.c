@@ -2,7 +2,7 @@
  * tree.c : Playlist tree walking functions
  *****************************************************************************
  * Copyright (C) 1999-2007 the VideoLAN team
- * $Id$
+ * $Id: 196ab807f05c0e8417b17cc6f818fd8bbaa0df14 $
  *
  * Authors: Clément Stenac <zorglub@videolan.org>
  *

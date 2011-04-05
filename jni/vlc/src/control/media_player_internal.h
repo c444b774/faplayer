@@ -3,7 +3,7 @@
  * Also contains some internal utility functions
  *****************************************************************************
  * Copyright (C) 2005-2009 the VideoLAN team
- * $Id$
+ * $Id: 5b12ff79a67ce4816f72b05e9ea2638a4fa218ae $
  *
  * Authors: Clément Stenac <zorglub@videolan.org>
  *

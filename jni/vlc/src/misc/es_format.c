@@ -2,7 +2,7 @@
  * es_format.c : es_format_t helpers.
  *****************************************************************************
  * Copyright (C) 2008 the VideoLAN team
- * $Id$
+ * $Id: 7830289ac47dbf11140a220520b5c9009606d19f $
  *
  * Author: Laurent Aimar <fenrir@videolan.org>
  *

@@ -2,7 +2,7 @@
  * error.c: error handling routine
  *****************************************************************************
  * Copyright (C) 2002-2004 the VideoLAN team
- * $Id$
+ * $Id: a11639e785f647f98e703684f591f75cfffece15 $
  *
  * Authors: Samuel Hocevar <sam@zoy.org>
  *

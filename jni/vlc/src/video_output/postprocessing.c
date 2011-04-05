@@ -2,7 +2,7 @@
  * postprocessing.c
  *****************************************************************************
  * Copyright (C) 2010 Laurent Aimar
- * $Id$
+ * $Id: 6b86efd2f29a6ffada2c638c3b28add4593933c4 $
  *
  * Authors: Laurent Aimar <fenrir _AT_ videolan _DOT_ org>
  *

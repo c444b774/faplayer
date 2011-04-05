@@ -2,7 +2,7 @@
  * modules.c : Builtin and plugin modules management functions
  *****************************************************************************
  * Copyright (C) 2001-2011 the VideoLAN team
- * $Id$
+ * $Id: aa758d779d34e8b246eee9515303210fba025b8c $
  *
  * Authors: Sam Hocevar <sam@zoy.org>
  *          Ethan C. Baldridge <BaldridgeE@cadmus.com>
@@ -935,6 +935,7 @@ static void AllocatePluginDir( vlc_object_t *p_this, module_bank_t *p_bank,
                           "_plugin"LIBEXT, strlen ("_plugni"LIBEXT)))
             /* ^^ We only load files matching "lib*_plugin"LIBEXT */
             AllocatePluginFile (p_this, p_bank, path, st.st_mtime, st.st_size);
+
         free (path);
     }
     closedir (dh);

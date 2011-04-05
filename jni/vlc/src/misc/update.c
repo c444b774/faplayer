@@ -2,7 +2,7 @@
  * update.c: VLC update checking and downloading
  *****************************************************************************
  * Copyright © 2005-2008 the VideoLAN team
- * $Id$
+ * $Id: 0c939a0b37fcd2792920a3fb62efad7f7a8ef5f0 $
  *
  * Authors: Antoine Cellerier <dionoea -at- videolan -dot- org>
  *          Rémi Duraffort <ivoire at via.ecp.fr>
@@ -70,7 +70,7 @@
  *      * Z is the revision number
  *      * e is an OPTIONAL extra letter
  *      * AKA "0.8.6d" or "0.9.0"
- * Second line is an url of the binary for this last version
+ * Second line is a url of the binary for this last version
  * Remaining text is a required description of the update
  */
 

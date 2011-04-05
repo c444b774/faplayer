@@ -2,7 +2,7 @@
  * event.h: vout event
  *****************************************************************************
  * Copyright (C) 2009 Laurent Aimar
- * $Id$
+ * $Id: a6397a3fb031d2235fef34179874f345031f8f06 $
  *
  * Authors: Laurent Aimar <fenrir _AT_ videolan _DOT_ org>
  *

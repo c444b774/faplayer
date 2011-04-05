@@ -2,7 +2,7 @@
  * headers.c: Test for public headers usability
  *****************************************************************************
  * Copyright (C) 2007 Rémi Denis-Courmont
- * $Id$
+ * $Id: 900f47d8c52c0bec9c48992bc4a31ddf2fde4293 $
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

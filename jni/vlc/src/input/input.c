@@ -2,7 +2,7 @@
  * input.c: input thread
  *****************************************************************************
  * Copyright (C) 1998-2007 the VideoLAN team
- * $Id$
+ * $Id: 63a148029d21448996035d65d0fa8ac81deb1ba4 $
  *
  * Authors: Christophe Massiot <massiot@via.ecp.fr>
  *          Laurent Aimar <fenrir@via.ecp.fr>
@@ -809,7 +809,9 @@ static void MainLoop( input_thread_t *p_input, bool b_interactive )
                     break;
                 }
 
+#ifndef NDEBUG
                 msg_Dbg( p_input, "control type=%d", i_type );
+#endif
 
                 if( Control( p_input, i_type, val ) )
                 {

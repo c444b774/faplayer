@@ -3,7 +3,7 @@
  *****************************************************************************
  * Copyright (C) 2009 the VideoLAN team
  * Copyright (C) 2009 Laurent Aimar <fenrir _AT_ videolan _DOT_ org>
- * $Id$
+ * $Id: b7e8c0302b7cb85f86bfc60ba3f8431b51436ac4 $
  *
  * Authors: Laurent Aimar <fenrir _AT_ videolan _DOT_ org>
  *
