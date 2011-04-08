@@ -55,6 +55,10 @@
 #include <vlc_charset.h>
 #include "../libvlc.h"
 
+#ifdef ANDROID
+#include "debug.h"
+#endif
+
 /*****************************************************************************
  * Local macros
  *****************************************************************************/
@@ -519,7 +523,11 @@ static void PrintMsg ( vlc_object_t * p_this, msg_item_t * p_item )
 
     int canc = vlc_savecancel ();
     /* Send the message to stderr */
+#ifdef ANDROID
+    debug( "[%s%p%s] %s%s%s %s%s: %s%s%s\n",
+#else
     utf8_fprintf( stderr, "[%s%p%s] %s%s%s %s%s: %s%s%s\n",
+#endif
                   priv->b_color ? GREEN : "",
                   (void *)p_item->i_object_id,
                   priv->b_color ? GRAY : "",
